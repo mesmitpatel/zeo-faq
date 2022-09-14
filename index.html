@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Zeo FAQs</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <div class="menu-container">
+                <div class="logo">
+                    <a href="./index.html"><img src="./img/logo.svg" alt="logo"></a>
+                </div>
+                <div class="divider">
+                    <span class="divider-line"></span>
+                </div>
+                <div class="menu">
+                    <ul class="menu-items">
+                        <li class="menu-item">
+                            <a href="#">Home</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">Products</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">Pricing</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="cta-container">
+                <div class="cta download-ios">
+                    <img src="./img/ios.svg" alt="ios">
+                </div>
+                <div class="cta download-android">
+                    <img src="./img/play_store.svg" alt="android">
+                </div>
+                <div class="cta sign-in">
+                    <button>Sign In</button>
+                </div>
+                <div class="cta cta-container__mobile-nav">
+                    <img src="./img/menu.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="mobile-nav-container hide">
+        <div class="mobile-nav">
+            <div class="menu">
+                <ul class="menu-items">
+                    <li class="menu-item">
+                        <a href="#">Home</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#">Products</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#">Pricing</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="ctas">
+                <div class="cta download-android">
+                    <img src="./img/play_store.svg" alt="ios">
+                </div>
+                <div class="cta download-ios">
+                    <img src="./img/ios.svg" alt="ios">
+                </div>
+                <div class="cta sign-in">
+                    <button>Sign In</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <main>
+        <section class="heading-container">
+            <div class="heading-container__heading">
+                Frequently Asked Questions
+            </div>
+            <div class="heading-container__search">
+                <div class="heading-container__search-icon">
+                    <img src="./img/search.svg" alt="">
+                </div>
+                <input type="text" class="heading-container__search" placeholder="Search">
+            </div>
+        </section>
+        <section class="suggestions">
+            <div class="suggestion suggestion-1">
+                <div class="icon">
+                    <img src="./img/truck.svg" alt="">
+                </div>
+                <div class="caption">
+                    <p>Create a Route</p>
+                </div>
+            </div>
+            <div class="suggestion suggestion-2">
+                <div class="icon">
+                    <img src="./img/dollar-sign.svg" alt="">
+                </div>
+                <div class="caption">
+                    <p>Payments</p>
+                </div>
+            </div>
+            <div class="suggestion suggestion-3">
+                <div class="icon">
+                    <img src="./img/setting.svg" alt="">
+                </div>
+                <div class="caption">
+                    <p>Preferences</p>
+                </div>
+            </div>
+            <div class="suggestion suggestion-4">
+                <div class="icon">
+                    <img src="./img/user-plus.svg" alt="">
+                </div>
+                <div class="caption">
+                    <p>New Account</p>
+                </div>
+            </div>
+        </section>
+        <section class="faq-container">
+            <div class="faq-title">
+                Creating a Route
+            </div>
+            <div class="faqs">
+                <div class="faq">
+                    <div class="faq__container-default">
+                        <div class="question-container">
+                            <div class="question">
+                                <p>What are different ways to make route?<span
+                                        class="faq-tag faq-tag__mobile">APP</span></p>
+                            </div>
+                            <!-- <div class="faq-tag faq-tag__mobile">
+                                MOBILE
+                            </div> -->
+                        </div>
+                        <div class="icon">
+                            <img src="./img/arrow-down.svg" alt="Show">
+                        </div>
+                    </div>
+                    <div class="faq__container-expanded">
+                        <div class="faq__container-expanded-content">
+                            <div class="faq__container-expanded-content-paragraph">
+                                <p>To download a report for a particular trip, go to the History section & scroll down
+                                    to the stop you want to download the report for. Click on the three dots menu and
+                                    you will see a “Download Report” option. Click on that to download the report for
+                                    that particular trip.
+
+                                    For any particular trip, the report will contain detailed numbers of all the
+                                    important statistical measures such as -
+                                </p>
+                            </div>
+                            <div class="faq__container-expanded-content-list">
+                                <ul>
+                                    <li>Serial Number</li>
+                                    <li>Address</li>
+                                    <li>Distance from start</li>
+                                    <li>Original ETA</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="faq__container-expanded-ctas">
+                            <button class="faq__container-expanded-cta-watch">
+                                <img src="./img/play.svg" alt="play"> watch a video tutorial
+                            </button>
+                            <button class="faq__container-expanded-cta-read">
+                                read the blog
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq">
+                    <div class="faq__container-default">
+                        <div class="question-container">
+                            <div class="question">
+                                <p>How to create a new route from my route history?<span
+                                        class="faq-tag faq-tag__web">WEB</span>
+                                </p>
+                            </div>
+                            <!-- <div class="faq-tag faq-tag__mobile">
+                                MOBILE
+                            </div> -->
+                        </div>
+                        <div class="icon">
+                            <img src="./img/arrow-down.svg" alt="Show">
+                        </div>
+                    </div>
+                    <div class="faq__container-expanded">
+                        <div class="faq__container-expanded-content">
+                            <div class="faq__container-expanded-content-paragraph">
+                                <p>To download a report for a particular trip, go to the History section & scroll down
+                                    to the stop you want to download the report for. Click on the three dots menu and
+                                    you will see a “Download Report” option. Click on that to download the report for
+                                    that particular trip.
+
+                                    For any particular trip, the report will contain detailed numbers of all the
+                                    important statistical measures such as -
+                                </p>
+                            </div>
+                            <div class="faq__container-expanded-content-list">
+                                <ul>
+                                    <li>Serial Number</li>
+                                    <li>Address</li>
+                                    <li>Distance from start</li>
+                                    <li>Original ETA</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="faq__container-expanded-ctas">
+                            <button class="faq__container-expanded-cta-watch">
+                                <img src="./img/play.svg" alt="play"> watch a video tutorial
+                            </button>
+                            <button class="faq__container-expanded-cta-read">
+                                read the blog
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq">
+                    <div class="faq__container-default">
+                        <div class="question-container">
+                            <div class="question">
+                                <p>How to download reports of my trips?<span class="faq-tag faq-tag__fleet">FLEET</span>
+                                </p>
+                            </div>
+                            <!-- <div class="faq-tag faq-tag__mobile">
+                                MOBILE
+                            </div> -->
+                        </div>
+                        <div class="icon">
+                            <img src="./img/arrow-down.svg" alt="Show">
+                        </div>
+                    </div>
+                    <div class="faq__container-expanded">
+                        <div class="faq__container-expanded-content">
+                            <div class="faq__container-expanded-content-paragraph">
+                                <p>To download a report for a particular trip, go to the History section & scroll down
+                                    to the stop you want to download the report for. Click on the three dots menu and
+                                    you will see a “Download Report” option. Click on that to download the report for
+                                    that particular trip.
+
+                                    For any particular trip, the report will contain detailed numbers of all the
+                                    important statistical measures such as -
+                                </p>
+                            </div>
+                            <div class="faq__container-expanded-content-list">
+                                <ul>
+                                    <li>Serial Number</li>
+                                    <li>Address</li>
+                                    <li>Distance from start</li>
+                                    <li>Original ETA</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="faq__container-expanded-ctas">
+                            <button class="faq__container-expanded-cta-watch">
+                                <img src="./img/play.svg" alt="play"> watch a video tutorial
+                            </button>
+                            <button class="faq__container-expanded-cta-read">
+                                read the blog
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+<script src="./main.js"> </script>
+
+</html>
